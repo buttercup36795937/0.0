@@ -1,17 +1,21 @@
-data1= input('請輸入a值')
-data2= input("請輸入b值")
-data3= input("請輸入c值")
+string= 'I love you'
+a= string.split(' ')
+print(a)
 
+################################
 
-a=(float(data1))
-b=(float(data2))
-c=(float(data3))
+b= string[::-1]
+s= b.split(' ')
+print(s)
 
-x=(b*b-4*a*c)
-if x<=0:
-    print("無解")
+################################
+n="I Love you so much"
+c="so "*100
+print(n.replace("so",c))
 
-else:
-     d=(-b+(b*b-4*a*c)**0.5)/(2*a) 
-     e=(-b-(b*b-4*a*c)**0.5)/(2*a)  
-     print("x1=",d,"x2=",e)
+################################
+import random
+d=random.randint(1,100)
+m="I Love you so much"
+f= str("so "*d)
+print(n.replace("so",f))
