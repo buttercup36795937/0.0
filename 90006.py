@@ -18,4 +18,4 @@ import random
 d=random.randint(1,100)
 m="I Love you so much"
 f= str("so "*d)
-print(n.replace("so",f))
+print(m.replace("so",f))
