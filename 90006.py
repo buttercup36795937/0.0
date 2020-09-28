@@ -12,16 +12,15 @@ print(int(a/b))
 ####################################
 for x in range(1,10):
     for i in range(1,10):
-        print('%ix%i=%2i' % (x, i, x*i), end=' ')
+        print('%dx%d=%2d' % (x, i, x*i), end=' ')
     print()
 ####################################
-
 import random
 d=random.randint(1,100)
-s=str(" So"*d)
-a="I love so much"
-for i in a :
-    if  i=="s":
-         c =a.replace("so",s)
-"".join(c.split())
-print(c)
+a="I Love You"
+b="much"
+print(a,end=' ')
+for i in range(d):
+    c="so"
+    print(c,end=' ')
+print(b)
