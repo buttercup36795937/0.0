@@ -23,19 +23,14 @@ y.append(b3+s3)
 print(y)
 
 ###########################
-a=['Company 1','Company 2','Company 3']
-a1=a[0]
-a2=a[1]
-a3=a[2]
-c1=a1.replace(" ",'_')
-c2=a2.replace(" ",'_')
-c3=a3.replace(" ",'_')
 
-x=[]
-x.append(c1)
-x.append(c2)
-x.append(c3)
-print(x)
+a=['Company 1','Company 2','Company 3']
+b=[]
+for i in a:
+    
+   b.append(str(i).replace(" ","_"))
+print(b)    
+    
 ##########################
 list1=[1,2,3,4,5,6]
 list2=[]
